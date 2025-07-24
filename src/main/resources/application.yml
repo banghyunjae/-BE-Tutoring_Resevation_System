@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: TutoringSystem
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/harmony
+    username: root
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+server:
+  port: 8080
